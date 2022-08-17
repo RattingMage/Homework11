@@ -1,0 +1,4 @@
+<h2>Найдено со скиллом {{ skill_name }}: {{ count }}</h2>
+{% for i in candidates %}
+<p><a href="/candidate/{{ i['id'] }}">{{ i['name'] }}</a></p>
+{% endfor %}

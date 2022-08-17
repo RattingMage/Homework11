@@ -1,0 +1,4 @@
+<h2>найдено кандидатов {{ count }}</h2>
+{% for i in candidates %}
+<p><a href="/candidate/{{ i['id'] }}">{{ i['name'] }}</a></p>
+{% endfor %}
